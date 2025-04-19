@@ -17,13 +17,6 @@
   box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6);
 }
 
-#hbtn {
-  position: absolute;
-  top: 690px;
-  left: 16px;
-  z-index: 99;
-}
-
 .hcard-content {
   position: absolute;
   left: 0;
@@ -35,10 +28,6 @@
 .hcontent-place {
   margin-top: 6px;
   font-size: 13px;
-  font-weight: 500;
-}
-
-.hcontent-place {
   font-weight: 500;
 }
 
@@ -59,7 +48,7 @@
 .hdetails {
   z-index: 22;
   position: absolute;
-  top: 25%;
+  top: 27%;
   left: 60px;
 }
 .hdetails .hplace-box {
@@ -93,29 +82,11 @@
   overflow: hidden;
 }
 .hdetails > .hdesc {
-  margin-top: 16px;
+  margin-top: 5%;
   width: 500px;
 }
-.hdetails > .hcta {
-  width: 500px;
-  margin-top: 24px;
-  display: flex;
-  align-items: center;
-}
-.hdetails > .hcta > .hbookmark {
-  border: none;
-  background-color: #ecad29;
-  width: 36px;
-  height: 36px;
-  border-radius: 99px;
-  color: white;
-  display: grid;
-  place-items: center;
-}
-.hdetails > .hcta > .hbookmark svg {
-  width: 20px;
-  height: 20px;
-}
+
+
 .hdetails > .hcta > .hdiscover {
   border: 1px solid #ffffff;
   background-color: transparent;

@@ -1230,8 +1230,8 @@ input[type=submit]:focus {
   width: 100px;
   height: 100px;
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  right: -10px;
+  bottom: -10px;
   z-index: 99;
   -webkit-transition: background-color 0.3s, color 0.3s;
   -moz-transition: background-color 0.3s, color 0.3s;
@@ -1248,8 +1248,8 @@ input[type=submit]:focus {
     height: 100px;
     line-height: 25px;
     font-size: 13px;
-    right: 10px;
-    bottom: 10px;
+    right: -10px;
+    bottom: -10px;
   }
 }
 
