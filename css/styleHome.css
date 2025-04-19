@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500&display=swap");
+
+.home {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #FFFFFFDD;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+.hcard {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+#hbtn {
+  position: absolute;
+  top: 690px;
+  left: 16px;
+  z-index: 99;
+}
+
+.hcard-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #FFFFFFDD;
+  padding-left: 16px;
+}
+
+.hcontent-place {
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.hcontent-place {
+  font-weight: 500;
+}
+
+.hcontent-title-1,
+.hcontent-title-2 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.hcontent-start {
+  width: 30px;
+  height: 5px;
+  border-radius: 99px;
+  background-color: #FFFFFFDD;
+}
+
+.hdetails {
+  z-index: 22;
+  position: absolute;
+  top: 25%;
+  left: 60px;
+}
+.hdetails .hplace-box {
+  height: 46px;
+  overflow: hidden;
+}
+.hdetails .hplace-box .htext {
+  padding-top: 16px;
+  font-size: 20px;
+}
+.hdetails .hplace-box .htext:before {
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 99px;
+  background-color: white;
+}
+.hdetails .htitle-1,
+.hdetails .htitle-2 {
+  font-weight: 600;
+  font-size: 72px;
+  font-family: "Oswald", sans-serif;
+}
+.hdetails .htitle-box-1,
+.hdetails .htitle-box-2 {
+  margin-top: 2px;
+  height: 100px;
+  overflow: hidden;
+}
+.hdetails > .hdesc {
+  margin-top: 16px;
+  width: 500px;
+}
+.hdetails > .hcta {
+  width: 500px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.hdetails > .hcta > .hbookmark {
+  border: none;
+  background-color: #ecad29;
+  width: 36px;
+  height: 36px;
+  border-radius: 99px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.hdetails > .hcta > .hbookmark svg {
+  width: 20px;
+  height: 20px;
+}
+.hdetails > .hcta > .hdiscover {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 36px;
+  border-radius: 99px;
+  color: #ffffff;
+  padding: 4px 24px;
+  font-size: 12px;
+  margin-left: 16px;
+  text-transform: uppercase;
+}
+
+.hindicator {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  z-index: 60;
+  background-color: #ecad29;
+}
+
+.hpagination {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+}
+.hpagination > .harrow {
+  z-index: 60;
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  border: 2px solid #ffffff55;
+  display: grid;
+  place-items: center;
+}
+.hpagination > .harrow:nth-child(2) {
+  margin-left: 20px;
+}
+.hpagination > .harrow svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+  color: #ffffff99;
+}
+.hpagination .hprogress-sub-container {
+  margin-left: 24px;
+  z-index: 60;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.hpagination .hprogress-sub-container .hprogress-sub-background {
+  width: 500px;
+  height: 3px;
+  background-color: #ffffff33;
+}
+.hpagination .hprogress-sub-container .hprogress-sub-background .hprogress-sub-foreground {
+  height: 3px;
+  background-color: #ecad29;
+}
+.hpagination .hslide-numbers {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  z-index: 60;
+  position: relative;
+}
+.hpagination .hslide-numbers .hitem {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hcover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+}
